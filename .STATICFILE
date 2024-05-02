@@ -1,0 +1,85 @@
+{
+    "REANALYZE": false,
+    "WORKING_DIR": "E:\\CPPTest\\.staticdata",
+    "COMPILER_INSTALLATION_PATH": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional"
+    ],
+    "PRE_BUILD_COMMAND": "",
+    "COMMAND": [
+        "msbuild",
+        "CPPTest.sln",
+        "/t:rebuild"
+    ],
+    "STATIC_SERVER_ADDRESS": "10.10.111.222",
+    "PROJECT_KEY": "EXAMPLE",
+    "TOOLCHAIN_FILENAME": "Microsoft_VisualStudio_2019_x64_Host_CCPP.sconf",
+    "PARSING": {
+        "C": {
+            "include": [
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Auxiliary\\VS\\include",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt",
+                "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um"
+            ],
+            "conf": [],
+            "removes": []
+        },
+        "CPP": {
+            "include": [
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Auxiliary\\VS\\include",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt",
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt",
+                "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um"
+            ],
+            "conf": [],
+            "removes": []
+        }
+    },
+    "USER_DEFINED_EXTENSIONS": {
+        "header": [
+            ".h",
+            ".H",
+            ".hpp",
+            ".HPP",
+            ".tcc",
+            ".inl",
+            ".INL"
+        ],
+        "source": [
+            ".c",
+            ".C",
+            ".c++",
+            ".C++",
+            ".cpp",
+            ".CPP",
+            ".cxx",
+            ".CXX",
+            ".cc",
+            ".CC",
+            ".cp",
+            ".CP"
+        ],
+        "object": [
+            ".o",
+            ".O",
+            ".lo",
+            ".obj",
+            ".OBJ"
+        ]
+    },
+    "MULTI_PROCESSOR": false,
+    "EXCLUSIONS": [],
+    "EXTRA_OPTIONS": {
+        "SPECIFIED_ANALYSIS_AGENT_VERSION": ""
+    }
+}
